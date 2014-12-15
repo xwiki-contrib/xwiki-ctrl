@@ -1,0 +1,13 @@
+Source: xwikictrl
+Maintainer: Charles Sabourdin <csabourdin@xwiki.com>
+Section: misc
+Priority: optional
+Standards-Version: 2.0.0
+Build-Depends: debhelper (>= 9)
+
+Package: xwikictrl
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: This is a set of script used to deal with xwiki
+ Documentation should be on git at :
+ also on xwiki.org
