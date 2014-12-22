@@ -24,7 +24,7 @@ if [[ $UID -ne 0 ]]; then
 
 fi
 
-if [[ ! -e /var/lib/xinit/vars ]]; then
+if [[ ! -e /usr/lib/xwikictrl/vars ]]; then
 
 	echo
 	echo " Error: No vars fils was found! Exiting ..."
@@ -33,7 +33,7 @@ if [[ ! -e /var/lib/xinit/vars ]]; then
 
 else
 
-	. /var/lib/xinit/vars
+	. /usr/lib/xwikictrl/vars
 
 fi
 
