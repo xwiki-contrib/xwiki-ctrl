@@ -6,15 +6,22 @@ This branch is for Debian Linux
 
 Remember to have ~/.gbp.conf 
  [DEFAULT]
+
  builder = git-pbuilder
+
  cleaner = fakeroot debian/rules clean
+
  pristine-tar = True
 
  [git-buildpackage]
+
  export-dir = ../build-area/
+
  tarball-dir = ../tarballs/
 
+
  [git-import-orig]
+
  dch = False
 
 
